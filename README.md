@@ -27,9 +27,9 @@ Display the original and processed images using plt.imshow() with proper axis co
 
 Finalize by calling plt.show() to display all images in a single figure for easy visualization and comparison.
 
-## REG NO: 212223240163
-## NAME : Suman G
-## Program:
+## Program Developed By:
+- **Name:** Suman G 
+- **Register Number:**  212223240163
 ### Import the necessary packages
 ```
 import cv2
@@ -41,7 +41,7 @@ image = np.zeros((500, 500, 3), dtype="uint8")
 
 ### Create the Text using cv2.putText
 ```
-text = "NITHISH"
+text = "SUMAN"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 ```
